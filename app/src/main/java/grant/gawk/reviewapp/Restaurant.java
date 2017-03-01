@@ -8,7 +8,7 @@ public class Restaurant
     private String Name;
     private String City;
 
-    public Restaurant(Bitmap picture, String name, String city){
+    public restaurantData(Bitmap picture, String name, String city){
         Picture = picture;
         Name = name;
         City = city;
@@ -21,20 +21,20 @@ public class Restaurant
         return Picture;
     }
 
-    public String getName() {
-        return Name;
-    }
-
     public void setName(String name) {
         Name = name;
     }
-
-    public String getCity() {
-        return City;
+    public String getName() {
+        return Name;
     }
 
     public void setCity(String city) {
         City = city;
     }
+    public String getCity() {
+        return City;
+    }
+
+
 }
 
